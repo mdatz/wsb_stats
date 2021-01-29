@@ -92,4 +92,9 @@ def create_stock_dictionary():
     create_amex_dictionary(stock_dictionary);
     create_nyse_dictionary(stock_dictionary);
     
+    stock_dictionary['retard'] = True;
+    stock_dictionary['Retard'] = True;
+    stock_dictionary['autist'] = True;
+    stock_dictionary['Autist'] = True;
+
     return stock_dictionary;
