@@ -11,7 +11,7 @@ stock_dict = create_stock_dictionary();
 count_dict = dict();
 
 #Initialize PRAW API and Pushshift API
-reddit = praw.Reddit(client_id='process.env.REDDIT_ID', client_secret='process.env.REDDIT_SECRET', user_agent='process.env.REDDIT_USER');
+reddit = praw.Reddit(client_id=process.env.REDDIT_ID, client_secret=process.env.REDDIT_SECRET, user_agent=process.env.REDDIT_USER);
 api = PushshiftAPI(reddit);
 
 #Get Current Date
